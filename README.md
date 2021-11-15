@@ -10,8 +10,6 @@ This repo contains Android automation
     - [Requirements help](#requirements-help)
 - [Resources](#resources)
 - [Running Cucumber Tests](#running-cucumber-tests)
-- [Status](#status)
-- [More](#more)
 - [Links](#links)
 
 ## Configuration
