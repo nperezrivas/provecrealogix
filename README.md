@@ -7,7 +7,6 @@ This repo contains Android automation
     - [General requirements](#general-requirements)
     - [Specific requirements](#specific-requirements)
         - [Android](#android)
-    - [Requirements help](#requirements-help)
 - [Resources](#resources)
 - [Running Cucumber Tests](#running-cucumber-tests)
 - [Links](#links)
