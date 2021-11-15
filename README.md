@@ -19,7 +19,7 @@ This repo contains Android automation
 * Appium
 * Gradle
 * Plugin Cucumber for Kotlin on Android Studio
-* Download the project: git clone git@github.com:Badiapp/badi-android.git
+* Download the project: git clone git@github.com:nperezrivas/provecrealogix
 
 ### Specific requirements
 
