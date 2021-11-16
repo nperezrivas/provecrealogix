@@ -1,40 +1,43 @@
 package steps
 
-import com.google.gson.GsonBuilder
-import com.google.gson.JsonElement
-import com.google.gson.JsonParser
+import com.google.gson.*
 import com.google.inject.Inject
-import data.ApiQuery
+import data.DataClass
 import io.cucumber.java8.En
 import io.cucumber.java8.Scenario
-import org.testng.annotations.AfterSuite
-import pages.LoginPage
-import pages.OffersPromotionsPage
-import utils.ProjectCapabilities
-import java.util.stream.Collectors
+import org.testng.Assert
 
 
 class ApiSteps @Inject constructor(): En{
 
-    var apiQuery = ApiQuery()
+    var data = DataClass()
+    private lateinit var valueA : String
+    private lateinit var valueB : String
+    private lateinit var versionA : String
+    private lateinit var versionB : String
 
     init {
-        Before("@CrealogixScenarioApi"){scenario: Scenario ->
-
+        Before("@CrealogixScenarioData"){scenario: Scenario ->
+            println("starting scenario ${scenario.name}")
         }
 
-        After("@CrealogixScenarioApi"){scenario: Scenario ->
+        Given("I get the data value") {
 
+            valueA = data.getPlatesInfo("https://packagist.org/p/league/plates.json")
+            valueB = data.getPlatesInfo("https://packagist.org/packages/league/plates.json")
         }
 
-        Given("Api call"){
-            val key = "league/plates"
-            var valor = apiQuery.getUserToken("https://packagist.org/p/league/plates.json")
-            //print(valor)
-            val json = JsonParser.parseString(valor).asJsonObject
-            //val result = json.asJsonObject["packages"].asJsonObject[key]
-            val builder = GsonBuilder()
-           // val o = builder.create().fromJson<>()
+
+
+        And("I get the latest version")
+        {
+            versionA= data.getLatestVersion(valueA,"packages","league/plates")
+            versionB= data.getLatestVersion(valueB,"package","versions")
+        }
+
+        Then("I compare both values"){
+            Assert.assertEquals(versionA,versionB)
+            println("latest version is $versionA")
         }
 
 
