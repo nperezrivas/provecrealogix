@@ -27,6 +27,8 @@ This repo contains Android automation
 * Android Studio + emulators
 * Updated Java (Version 15.0.2 Max)
 * Configure JAVA\_HOME and ANDROID\_HOME ([_more information_](https://stackoverflow.com/questions/58467392/to-set-android-home-and-java-home-variable-every-time-need-to-run-source-pro))
+* The app must be installed on the device
+
 ### Running a single feature or single scenario
 1. Using the gradle cucumber command
 
