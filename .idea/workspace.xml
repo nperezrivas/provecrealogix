@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be29472c-13c4-4430-abea-5c8053ddd494" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/data/DataClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/data/DataClass.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/steps/ApiSteps.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/steps/ApiSteps.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/apiScenario.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/apiScenario.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +30,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -73,7 +82,25 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Latest version of the package is the same">
+  <component name="RunManager" selected="Cucumber Java.Feature: scenarioTests">
+    <configuration name="Feature: apiScenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/apiScenario.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ProveCrealogix.test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Assert that the keywords for each package are the same$&quot;" />
+      <option name="SUGGESTED_NAME" value="Feature: apiScenario" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: scenarioTests" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/scenarioTests.feature" />
@@ -92,14 +119,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Latest version of the package is the same" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Assert that the keywords for each package are the same" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ApiScenario.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/apiScenario.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="ProveCrealogix.test" />
-      <option name="NAME_FILTER" value="^Latest version of the package is the same$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Latest version of the package is the same$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Latest version of the package is the same" />
+      <option name="NAME_FILTER" value="^Assert that the keywords for each package are the same$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Assert that the keywords for each package are the same$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Assert that the keywords for each package are the same" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -111,14 +138,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Offer search by map with 50km proximity" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Assert that the latest version of the package is the same" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/scenarioTests.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/apiScenario.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="ProveCrealogix.test" />
-      <option name="NAME_FILTER" value="^Offer search by map with 50km proximity$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Offer search by map with 50km proximity$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Offer search by map with 50km proximity" />
+      <option name="NAME_FILTER" value="^Assert that the latest version of the package is the same$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Assert that the latest version of the package is the same$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Assert that the latest version of the package is the same" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -130,14 +157,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Set the language &quot;&lt;language2&gt;&quot;" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Print all the packages of the keywords" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/scenarioTests.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/apiScenario.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="ProveCrealogix.test" />
-      <option name="NAME_FILTER" value="^Set the language \&quot;.*\&quot;$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Set the language \&quot;.*\&quot;$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Set the language &quot;&lt;language2&gt;&quot;" />
+      <option name="NAME_FILTER" value="^Print all the packages of the keywords$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Print all the packages of the keywords$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Print all the packages of the keywords" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -151,10 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Latest version of the package is the same" />
         <item itemvalue="Cucumber Java.Feature: scenarioTests" />
-        <item itemvalue="Cucumber Java.Scenario: Offer search by map with 50km proximity" />
-        <item itemvalue="Cucumber Java.Scenario: Set the language &quot;&lt;language2&gt;&quot;" />
+        <item itemvalue="Cucumber Java.Feature: apiScenario" />
+        <item itemvalue="Cucumber Java.Scenario: Assert that the latest version of the package is the same" />
+        <item itemvalue="Cucumber Java.Scenario: Assert that the keywords for each package are the same" />
+        <item itemvalue="Cucumber Java.Scenario: Print all the packages of the keywords" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +230,21 @@
       <option name="project" value="LOCAL" />
       <updated>1636995627221</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="first commit">
+      <created>1636995787060</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1636995787060</updated>
+    </task>
+    <task id="LOCAL-00007" summary="first commit">
+      <created>1637051733968</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1637051733968</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +257,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
@@ -239,11 +282,27 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/test/kotlin/steps/ApiSteps.kt</url>
-          <line>33</line>
-          <option name="timeStamp" value="21" />
+          <url>file://$PROJECT_DIR$/src/test/kotlin/data/DataClass.kt</url>
+          <line>16</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/test/kotlin/data/DataClass.kt</url>
+          <line>18</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/test/kotlin/data/DataClass.kt</url>
+          <line>20</line>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CucumberJavaRunConfigurationType">
+        <watch expression="elementsList" language="kotlin" />
+        <watch expression="elementsList[&quot;v3.x-dev&quot;]" language="kotlin" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
